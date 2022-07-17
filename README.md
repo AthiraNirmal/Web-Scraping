@@ -4,4 +4,5 @@ Web Scarping is the automatic method of extraction data and content from a websi
 Here, the scarping code is written completely in Python using Scrapy
 
 Install Scrapy : pip install Scrapy
+
 To Run: scrapy crawl stack -o output.csv
