@@ -7,7 +7,8 @@ Install Scrapy : pip install Scrapy
 Install pyMongo: pip install pymongo
 
 Run: scrapy crawl -s MONGODB_URI="mongodb+srv://<YOUR_CONNECTION_STRING>" -s MONGODB_DATABASE="scrapy" quotes
-**Obtain the Connection String from MongoDb Atlas, Go to "connect" in your preferred Cluster and choose "Connect your Application".
+
+  ** *Obtain the Connection String from MongoDb Atlas, Go to "connect" in your preferred Cluster and choose "Connect your Application".
 Select Driver(Python) and Version***
 
 If you wish not to store data into Database: To Run, first go into the srapy project folder (cd stack) and then: scrapy crawl stack -o output.csv
